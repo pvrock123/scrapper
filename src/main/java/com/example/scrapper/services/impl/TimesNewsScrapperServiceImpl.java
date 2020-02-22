@@ -1,6 +1,6 @@
-package com.example.amit.services.impl;
-import com.example.amit.pojo.TopSixNews;
-import com.example.amit.services.TimesNewsScrapperService;
+package com.example.scrapper.services.impl;
+import com.example.scrapper.pojo.TopSixNews;
+import com.example.scrapper.services.TimesNewsScrapperService;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -18,7 +18,7 @@ public class TimesNewsScrapperServiceImpl implements TimesNewsScrapperService {
     private TopSixNews t1;
     @Override
     public TopSixNews[] getTopSixNewsItems() throws IOException {
-        Document doc = Jsoup.connect("https://time.com/").get();
+        Document doc = Jsoup.connect(base_url).get();
         Elements ele=doc.select(".last-column").select(".column-tout-metadata a");
         int index=0;
         topSixNews= new TopSixNews[6];

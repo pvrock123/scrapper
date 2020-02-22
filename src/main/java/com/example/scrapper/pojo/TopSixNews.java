@@ -1,4 +1,4 @@
-package com.example.amit.pojo;
+package com.example.scrapper.pojo;
 
 public class TopSixNews {
     private String title;

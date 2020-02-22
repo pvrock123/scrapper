@@ -1,8 +1,8 @@
-package com.example.amit.controllers;
+package com.example.scrapper.controllers;
 
-import com.example.amit.dto.TimesNewsScrapperDTO;
-import com.example.amit.pojo.TopSixNews;
-import com.example.amit.services.TimesNewsScrapperService;
+import com.example.scrapper.dto.TimesNewsScrapperDTO;
+import com.example.scrapper.pojo.TopSixNews;
+import com.example.scrapper.services.TimesNewsScrapperService;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

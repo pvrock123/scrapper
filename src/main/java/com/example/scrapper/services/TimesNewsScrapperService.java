@@ -1,6 +1,6 @@
-package com.example.amit.services;
+package com.example.scrapper.services;
 
-import com.example.amit.pojo.TopSixNews;
+import com.example.scrapper.pojo.TopSixNews;
 
 import java.io.IOException;
 

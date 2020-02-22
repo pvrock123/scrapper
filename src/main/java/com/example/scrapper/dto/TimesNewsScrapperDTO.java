@@ -1,6 +1,6 @@
-package com.example.amit.dto;
+package com.example.scrapper.dto;
 
-import com.example.amit.pojo.TopSixNews;
+import com.example.scrapper.pojo.TopSixNews;
 
 public class TimesNewsScrapperDTO {
     TopSixNews news[];
